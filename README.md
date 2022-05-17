@@ -4,10 +4,10 @@ This is a PyQT5 based application that is built to run in background (on system 
   
 This is just a basic application  
   
-(Note  
+_(Note  
 File PyScriptSystemTray.py is irrelevant to this program  
 This filec contains python-program to start any python application in SystemTray  
-)
+)_
 #### Codes
 ````python
 from PyQt5 import QtCore, QtGui, QtWidgets
