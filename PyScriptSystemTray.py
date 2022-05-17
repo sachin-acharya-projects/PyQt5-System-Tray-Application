@@ -5,12 +5,11 @@ image = Image.open("icon.png")
 
 def maximizeMe(icon, item):
     print("Yes, OnCourse")
-def closeSystem(icon: pystray.Icon, _):
-    """_summary_
-
+def closeSystem(icon: pystray.Icon, _: pystray._base.Menu):
+    """Close System Tray Icon
     Args:
         icon (pystray.Icon): _description_
-        item (item): _description_
+        _ (pystray._base.Menu): _description_
     """
     print("Exiting Parameter")
     # exit()
